@@ -1,0 +1,12 @@
+mok0 various debian packaging fixes, changes dev-art icon to actual quality artwork:)
+yeji0407 adds Korean translation
+fehlix added French translation, more lua-format detection, lua_load changes
+freddii for German translation
+afelinczak adds ninja meson support with vscode
+renyhp finds missing build deps for Ubuntu variations.
+horgan - no negative time value settings allowed
+jamartin9 pull request remove-nvidia-bom marker from default nvidia theme
+tioguda for Portuguese - Brazil translation
+Vistaus for Dutch translation!
+littledipper from Linux Mint IRC #linuxmint-help
+

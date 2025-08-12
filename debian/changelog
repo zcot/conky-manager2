@@ -1,5 +1,14 @@
-conky-manager (2.4) trusty; urgency=low
+conky-manager2 (2.7-0ubuntu2) hirsute; urgency=medium
 
-  * Minor changes
-  
- -- Tony George <tony.george.kol@gmail.com>  Wed, 21 Oct 2015 10:00:00 +0530
+   * Fix debian control files for lintian errors
+   * Clean up pixmap
+   * Write man page
+   * Build for hirsute.
+
+ -- Morten Kjeldgaard <mortenkjeldgaard@gmail.com>  Sat, 18 Sep 2021 20:43:39 +0200
+
+conky-manager2 (2.7-bionicppa1) bionic; urgency=low
+
+  * Meson build
+
+ -- Arkadiusz Felinczak <arek_felinczak@protonmail.com>  Tue, 26 May 2020 14:22:27 +0100

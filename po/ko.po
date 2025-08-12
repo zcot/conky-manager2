@@ -1,0 +1,775 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Project-Id-Version: conky-manager\n"
+"Language: ko\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: EditWidgetWindow.vala:384
+msgid "12 Hour"
+msgstr "12 시간"
+
+#: EditWidgetWindow.vala:386
+msgid "24 Hour"
+msgstr "24 시간"
+
+#: MainWindow.vala:423 MainWindow.vala:424
+msgid "About"
+msgstr "정보"
+
+#: SettingsWindow.vala:199
+msgid "Add"
+msgstr "추가"
+
+#: SettingsWindow.vala:152
+msgid "Additional locations to search for Conky themes"
+msgstr "Conky 테마를 검색 할 추가 위치"
+
+#: EditWidgetWindow.vala:104
+msgid "Alignment"
+msgstr "조정"
+
+#: GeneratePreviewWindow.vala:69
+msgid "All Widgets (Overwrite Existing Image)"
+msgstr "모든 위젯 (기존 이미지 덮어 쓰기)"
+
+#: GeneratePreviewWindow.vala:66
+msgid "All Widgets with Missing Previews"
+msgstr "누락 된 미리보기가있는 모든 위젯"
+
+#: Main.vala:257
+msgid "App config loaded"
+msgstr "앱 구성이로드되었습니다."
+
+#: Main.vala:209
+msgid "App config saved"
+msgstr "앱 구성이 저장되었습니다."
+
+#: MainWindow.vala:405 SettingsWindow.vala:47
+msgid "Application Settings"
+msgstr "앱 설정"
+
+#: EditWidgetWindow.vala:445
+msgid "Apply"
+msgstr "적용"
+
+#: EditWidgetWindow.vala:448
+msgid "Apply Changes"
+msgstr "변경 승인"
+
+#: AboutWindow.vala:330
+#, c-format
+msgid "Artists"
+msgstr "아티스트"
+
+#: AboutWindow.vala:314
+#, c-format
+msgid "Authors"
+msgstr "저자"
+
+#: AboutWindow.vala:285
+msgid "Back"
+msgstr "이전"
+
+#: EditWidgetWindow.vala:312
+msgid "Background Color"
+msgstr "배경색"
+
+#: EditWidgetWindow.vala:125
+msgid "Bottom Left"
+msgstr "왼쪽 하단"
+
+#: EditWidgetWindow.vala:129
+msgid "Bottom Middle"
+msgstr "하단 중간"
+
+#: EditWidgetWindow.vala:127
+msgid "Bottom Right"
+msgstr "오른쪽 하단"
+
+#: MainWindow.vala:121
+msgid "Browse:"
+msgstr "검색:"
+
+#: EditThemeWindow.vala:212 GeneratePreviewWindow.vala:148
+#: SettingsWindow.vala:221
+msgid "Cancel"
+msgstr "취소"
+
+#: GeneratePreviewWindow.vala:83
+msgid "Capture Desktop Background"
+msgstr "바탕 화면 배경 캡처"
+
+#: EditThemeWindow.vala:130
+msgid "Choose File"
+msgstr "파일을 선택"
+
+#: AboutWindow.vala:295 EditWidgetWindow.vala:461
+msgid "Close"
+msgstr "닫기"
+
+#: Main.vala:164
+msgid "Commands listed below are not available"
+msgstr "아래 나열된 명령을 사용할 수 없습니다."
+
+#: AboutWindow.vala:272 AboutWindow.vala:289 MainWindow.vala:257
+msgid "Credits"
+msgstr "정보"
+
+#: EditThemeWindow.vala:123
+msgid "Current Wallpaper"
+msgstr "현재 배경 화면"
+
+#: Main.vala:1973
+msgid "Current wallpaper source path"
+msgstr "현재 배경 화면 소스 경로"
+
+#: EditThemeWindow.vala:115
+msgid "Custom Wallpaper"
+msgstr "사용자 정의 배경화면"
+
+#: DonationWindow.vala:54
+msgid ""
+"Did you find this software useful?\n"
+"\n"
+"You can buy me a coffee or make a donation via PayPal to show your support. "
+"Or just drop me an email and say Hi. This application is completely free and "
+"will continue to remain that way. Your contributions will help in keeping "
+"this project alive and improving it further.\n"
+"\n"
+"Feel free to send me an email if you find any issues in this application or "
+"if you need any changes. Suggestions and feedback are always welcome.\n"
+"\n"
+"Thanks,\n"
+"Tony George\n"
+"(teejeetech@gmail.com)"
+msgstr ""
+"이 소프트웨어가 유용 했습니까?\n"
+"\n"
+"저에게 커피를 사거나 PayPal을 통해 기부하여 지원을 보여줄 수 있습니다. 아니"
+"면 그냥 나에게 이메일을 보내고 인사하십시오. 이 응용 프로그램은 완전히 무료이"
+"며 계속 그대로 유지됩니다. 여러분의 기여는이 프로젝트를 유지하고 더 발전시키"
+"는 데 도움이 될 것입니다.\n"
+"\n"
+"이 응용 프로그램에서 문제를 발견하거나 변경이 필요한 경우 언제든지 저에게 이"
+"메일을 보내주십시오. 제안과 피드백은 언제나 환영합니다.\n"
+"\n"
+"감사,\n"
+"토니 조지\n"
+"(teejeetech@gmail.com)"
+
+#: Main.vala:266 Main.vala:272 Main.vala:278
+msgid "Directory Created"
+msgstr "생성 된 디렉토리"
+
+#: EditWidgetWindow.vala:464
+msgid "Discard Changes"
+msgstr "변경 사항을 취소"
+
+#: AboutWindow.vala:346
+#, c-format
+msgid "Documenters"
+msgstr "문서화"
+
+#: DonationWindow.vala:36 MainWindow.vala:414 MainWindow.vala:415
+msgid "Donate"
+msgstr "기부"
+
+#: DonationWindow.vala:74
+msgid "Donate with Google Wallet"
+msgstr "Google 지갑으로 기부"
+
+#: DonationWindow.vala:67
+msgid "Donate with PayPal"
+msgstr "PayPal로 기부"
+
+#: AboutWindow.vala:354
+#, c-format
+msgid "Donations"
+msgstr "기부"
+
+#: MainWindow.vala:328
+msgid "Edit"
+msgstr "편집"
+
+#: EditThemeWindow.vala:57
+msgid "Edit Theme"
+msgstr "테마 편집"
+
+#: EditWidgetWindow.vala:64 MainWindow.vala:329
+msgid "Edit Widget"
+msgstr "위젯 편집"
+
+#: MainWindow.vala:338
+msgid "Edit file manually in a text editor"
+msgstr "텍스트 편집기에서 수동으로 파일 편집"
+
+#: MainWindow.vala:444
+msgid "Enable"
+msgstr "활성화"
+
+#: MainWindow.vala:184
+msgid ""
+"Enter name or path to filter.\n"
+"Enter '0' to list running widgets"
+msgstr ""
+"필터링 할 이름 또는 경로를 입력하십시오.\n"
+"실행중인 위젯을 나열하려면 '0'을 입력하십시오."
+
+#: MainWindow.vala:959 Utility.vala:107
+msgid "Error"
+msgstr "오류"
+
+#: MainWindow.vala:959
+msgid "Failed to import themes"
+msgstr "테마를 가져 오지 못했습니다."
+
+#: Utility.vala:1309
+msgid "Failed to set ownership"
+msgstr "소유권을 설정하지 못했습니다."
+
+#: Main.vala:374
+msgid "Failed to unzip files from theme pack"
+msgstr "테마 팩에서 파일 압축을 풀지 못했습니다."
+
+#: MainWindow.vala:174
+msgid "Filter"
+msgstr "필터"
+
+#: Main.vala:579
+msgid "Font Copied: "
+msgstr "복사 된 글꼴 : "
+
+#: Main.vala:319
+msgid "Found theme pack [installed]"
+msgstr "테마 팩 발견 [설치됨]"
+
+#: Main.vala:327
+msgid "Found theme pack [new]"
+msgstr "테마 팩 발견 [신규]"
+
+#: SettingsWindow.vala:76
+msgid "General"
+msgstr "일반"
+
+#: GeneratePreviewWindow.vala:45 MainWindow.vala:369
+msgid "Generate Preview"
+msgstr "미리보기 생성"
+
+#: MainWindow.vala:370
+msgid "Generate preview images"
+msgstr "미리보기 이미지 생성"
+
+#: GeneratePreviewWindow.vala:57
+msgid "Generate preview images for"
+msgstr "선택한 옵션에 대한 미리보기 이미지 생성"
+
+#: GeneratePreviewWindow.vala:108
+msgid "Generate preview images in PNG format instead of JPEG"
+msgstr "JPEG 대신 PNG 형식으로 미리보기 이미지 생성"
+
+#: MainWindow.vala:788 MainWindow.vala:862
+msgid "Generating Previews"
+msgstr "미리보기 생성"
+
+#: EditWidgetWindow.vala:213
+msgid "Height Padding"
+msgstr "높이 패딩"
+
+#: EditWidgetWindow.vala:195
+msgid ""
+"Height should be larger than the size of window contents,\n"
+"otherwise this setting will not have any effect"
+msgstr ""
+"높이는 창 콘텐츠의 크기보다 커야합니다.\n"
+"그렇지 않으면이 설정은 효과가 없습니다."
+
+#: GeneratePreviewWindow.vala:104
+msgid "High quality images (PNG)"
+msgstr "고품질 이미지 (PNG)"
+
+#: EditWidgetWindow.vala:139
+msgid "Horizontal Gap"
+msgstr "수평 간격"
+
+#: MainWindow.vala:389 MainWindow.vala:901
+msgid "Import"
+msgstr "가져 오기"
+
+#: MainWindow.vala:390
+msgid "Import Theme Pack (*.cmtp.7z) or various archive type"
+msgstr "테마 팩 가져 오기 (*.cmtp.7z) 또는 다양한 압축형태 지원"
+
+#: Main.vala:363
+msgid "Importing"
+msgstr "가져 오기"
+
+#: EditThemeWindow.vala:80
+msgid "Include desktop wallpaper in theme"
+msgstr "테마에 바탕 화면 배경 무늬 포함"
+
+#: EditThemeWindow.vala:222 EditThemeWindow.vala:223
+msgid "Include running widgets in theme"
+msgstr "테마에 실행중인 위젯 포함"
+
+#: EditWidgetWindow.vala:210
+msgid ""
+"Increases the window height by adding empty lines at the end of the Conky "
+"config file"
+msgstr "Conky 구성 파일 끝에 빈 줄을 추가하여 창 높이를 높입니다."
+
+#: EditWidgetWindow.vala:406
+msgid "Interface"
+msgstr "장치명"
+
+#: EditWidgetWindow.vala:425
+msgid "LAN"
+msgstr "유선랜"
+
+#: MainWindow.vala:200
+msgid "List"
+msgstr "목록"
+
+#: EditWidgetWindow.vala:475
+msgid "Loading"
+msgstr "로딩 중"
+
+#: EditWidgetWindow.vala:88 SettingsWindow.vala:173
+msgid "Location"
+msgstr "위치"
+
+#: SettingsWindow.vala:126
+msgid "Locations"
+msgstr "위치"
+
+#: MainWindow.vala:337
+msgid "Manual Edit"
+msgstr "수동 편집"
+
+#: EditWidgetWindow.vala:131
+msgid "Middle Left"
+msgstr "중간 왼쪽"
+
+#: EditWidgetWindow.vala:135
+msgid "Middle Middle"
+msgstr "중간 중간"
+
+#: EditWidgetWindow.vala:133
+msgid "Middle Right"
+msgstr "중간 오른쪽"
+
+#: EditWidgetWindow.vala:198
+msgid "Minimum Height"
+msgstr "최소 높이"
+
+#: EditWidgetWindow.vala:182
+msgid "Minimum Width"
+msgstr "최소 너비"
+
+#: Main.vala:133
+msgid "Missing Dependencies"
+msgstr "누락 된 종속성"
+
+#: Utility.vala:1039
+msgid "Missing Icon"
+msgstr "누락 된 아이콘"
+
+#: MainWindow.vala:1082
+msgid "N/A"
+msgstr "해당 없음"
+
+#: EditThemeWindow.vala:328
+msgid "Name Required"
+msgstr "이름 (필수"
+
+#: EditWidgetWindow.vala:390
+msgid "Network"
+msgstr "네트워크"
+
+#: EditWidgetWindow.vala:539
+msgid "Network interface cannot be changed for selected widget"
+msgstr "선택한 위젯에 대한 네트워크 인터페이스를 변경할 수 없습니다."
+
+#: MainWindow.vala:296
+msgid "Next"
+msgstr "다음"
+
+#: MainWindow.vala:297
+msgid "Next Widget"
+msgstr "다음 위젯"
+
+#: EditThemeWindow.vala:341
+msgid "No Widgets Selected"
+msgstr "선택된 위젯 없음"
+
+#: EditThemeWindow.vala:113
+msgid "None"
+msgstr "없음"
+
+#: DonationWindow.vala:95 EditThemeWindow.vala:205
+#: GeneratePreviewWindow.vala:125 SettingsWindow.vala:215
+msgid "OK"
+msgstr "확인"
+
+#: EditWidgetWindow.vala:298
+msgid "Opacity (%)"
+msgstr "불투명도 (%)"
+
+#: EditWidgetWindow.vala:286
+msgid "Opaque"
+msgstr "불투명"
+
+#: MainWindow.vala:346
+msgid "Open Folder"
+msgstr "폴더 열기"
+
+#: MainWindow.vala:347
+msgid "Open Theme Folder"
+msgstr "테마 폴더 열기"
+
+#: GeneratePreviewWindow.vala:72
+msgid "Options"
+msgstr "옵션"
+
+#: EditThemeWindow.vala:329
+msgid "Please enter theme name"
+msgstr "테마 이름을 입력하세요"
+
+#: Main.vala:165
+msgid "Please install required packages and try running it again"
+msgstr "필수 패키지를 설치하고 다시 실행하십시오."
+
+#: MainWindow.vala:194
+msgid "Preview"
+msgstr "미리보기"
+
+#: MainWindow.vala:287
+msgid "Previous"
+msgstr "이전"
+
+#: MainWindow.vala:288
+msgid "Previous Widget"
+msgstr "이전 위젯"
+
+#: EditWidgetWindow.vala:290
+msgid "Pseudo-Transparent"
+msgstr "의사 투명"
+
+#: MainWindow.vala:360
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: SettingsWindow.vala:205
+msgid "Remove"
+msgstr "제거"
+
+#: EditWidgetWindow.vala:453
+msgid "Reset"
+msgstr "초기화"
+
+#: EditWidgetWindow.vala:456
+msgid "Reset Changes"
+msgstr "변경 사항 재설정"
+
+#: SettingsWindow.vala:86
+msgid "Run Conky at system startup"
+msgstr "시스템 시작시 Conky 실행"
+
+#: EditThemeWindow.vala:57 MainWindow.vala:160
+msgid "Save Theme"
+msgstr "테마 저장"
+
+#: MainWindow.vala:164
+msgid "Save running widgets and current desktop wallpaper as new theme"
+msgstr "실행중인 위젯과 현재 바탕 화면 배경 무늬를 새 테마로 저장"
+
+#: Main.vala:1020
+msgid "Saved"
+msgstr "저장 됨"
+
+#: EditThemeWindow.vala:152
+msgid "Scaling"
+msgstr "스케일링"
+
+#: MainWindow.vala:361
+msgid "Search for new themes"
+msgstr "새로운 테마 검색"
+
+#: MainWindow.vala:1094
+msgid "Searching directories..."
+msgstr "디렉토리 검색 중 ..."
+
+#: Main.vala:426
+#, c-format
+msgid "Searching for conkyrc files... %d found"
+msgstr "conkyrc 파일 검색 중 ... %d 개 찾음"
+
+#: EditThemeWindow.vala:135
+msgid "Select Wallpaper"
+msgstr "배경 화면 선택"
+
+#: SettingsWindow.vala:270
+msgid "Select directory"
+msgstr "디렉토리 선택"
+
+#: EditThemeWindow.vala:342
+msgid "Select the widgets to include in theme"
+msgstr "테마에 포함 할 위젯 선택"
+
+#: GeneratePreviewWindow.vala:63
+msgid "Selected Widget"
+msgstr "선택한 위젯"
+
+#: EditWidgetWindow.vala:292
+msgid "Semi-Transparent"
+msgstr "반투명"
+
+#: DonationWindow.vala:81
+msgid "Send Email"
+msgstr "이메일 발송"
+
+#: EditWidgetWindow.vala:240
+msgid ""
+"Setting Type to \"Opaque\" (from the transparency tab) will make it easier "
+"to see the changes"
+msgstr ""
+"\"불투명\"(투명도 탭에서)으로 설정하면 변경 사항을 더 쉽게 볼 수 있습니다."
+
+#: EditWidgetWindow.vala:335
+msgid ""
+"Setting Type to \"Pseudo-Transparent\" will make the window transparent but "
+"the window will have a shadow. The shadow can be disabled by configuring "
+"your window manager."
+msgstr ""
+"\"의사 투명\"으로 설정하면 창이 투명 해지지 만 창에 그림자가 생깁니다. 창 관"
+"리자를 구성하여 섀도우를 비활성화 할 수 있습니다."
+
+#: EditWidgetWindow.vala:325
+msgid ""
+"Setting Type to \"Transparent\" will make the whole window transparent "
+"(including any images). Use \"Pseudo-Transparent\" if you want the images to "
+"be opaque."
+msgstr ""
+"\"투명\"으로 설정하면 전체 창이 투명 해집니다 (모든 이미지 포함). 이미지를 불"
+"투명하게하려면 \"의사 투명\"을 사용하십시오."
+
+#: MainWindow.vala:404
+msgid "Settings"
+msgstr "설정"
+
+#: EditWidgetWindow.vala:164
+msgid "Size"
+msgstr "크기"
+
+#: MainWindow.vala:247
+msgid "Source"
+msgstr "소스"
+
+#: MainWindow.vala:305 MainWindow.vala:314
+msgid "Start"
+msgstr "시작"
+
+#: MainWindow.vala:306
+msgid "Start/Restart Widget"
+msgstr "위젯 시작 / 다시 시작"
+
+#: Main.vala:923
+msgid "Started"
+msgstr "시작"
+
+#: SettingsWindow.vala:105
+msgid "Startup Delay (seconds)"
+msgstr "시작 지연 (초)"
+
+#: MainWindow.vala:229 MainWindow.vala:231
+msgid "Stop"
+msgstr "중지"
+
+#: MainWindow.vala:380
+msgid "Stop All Widgets"
+msgstr "모든 위젯 중지"
+
+#: MainWindow.vala:315
+msgid "Stop Widget"
+msgstr "위젯 중지"
+
+#: MainWindow.vala:381
+msgid "Stop all running widgets"
+msgstr "실행중인 모든 위젯 중지"
+
+#: Main.vala:949 Utility.vala:767
+msgid "Stopped"
+msgstr "중지됨"
+
+#: EditWidgetWindow.vala:230
+msgid ""
+"The minimum width & height must be more than the size of the window "
+"contents, otherwise the setting will not have any effect."
+msgstr ""
+"최소 너비 및 높이는 창 내용의 크기보다 커야합니다. 그렇지 않으면 설정이 적용"
+"되지 않습니다."
+
+#: SettingsWindow.vala:137
+msgid "Theme Directory"
+msgstr "테마 디렉토리"
+
+#: EditThemeWindow.vala:67
+msgid "Theme Name"
+msgstr "테마 이름"
+
+#: MainWindow.vala:129
+msgid "Themes"
+msgstr "테마"
+
+#: MainWindow.vala:956
+msgid "Themes Imported"
+msgstr "가져온 테마"
+
+#: MainWindow.vala:956
+msgid "Themes imported successfully"
+msgstr "성공적으로 가져온 테마"
+
+#: AboutWindow.vala:322
+#, c-format
+msgid "Third Party Tools"
+msgstr "타사 도구"
+
+#: EditWidgetWindow.vala:346
+msgid "Time"
+msgstr "시각"
+
+#: EditWidgetWindow.vala:362
+msgid "Time Format"
+msgstr "시간 형식"
+
+#: EditWidgetWindow.vala:523
+msgid "Time format cannot be changed for selected widget"
+msgstr "선택한 위젯의 시간 형식을 변경할 수 없습니다."
+
+msgid "Toggle List"
+msgstr "목록 전환"
+
+#: MainWindow.vala:196
+msgid "Toggle Preview"
+msgstr "미리보기 전환"
+
+#: EditWidgetWindow.vala:119
+msgid "Top Left"
+msgstr "왼쪽 상단"
+
+#: EditWidgetWindow.vala:123
+msgid "Top Middle"
+msgstr "상단 중간"
+
+#: EditWidgetWindow.vala:121
+msgid "Top Right"
+msgstr "맨 위 오른쪽"
+
+#: AboutWindow.vala:338
+#, c-format
+msgid "Translators"
+msgstr "번역사"
+
+#: EditWidgetWindow.vala:251
+msgid "Transparency"
+msgstr "투명도"
+
+#: EditWidgetWindow.vala:268
+msgid "Transparency Type"
+msgstr "투명성 유형"
+
+#: EditWidgetWindow.vala:288
+msgid "Transparent"
+msgstr "투명"
+
+#: EditWidgetWindow.vala:573
+msgid "Updating theme"
+msgstr "테마 업데이트"
+
+#: MainWindow.vala:480
+msgid ""
+"Use the keyboard arrow keys to browse.\n"
+"Press ENTER to start and stop."
+msgstr ""
+"키보드 화살표 키를 사용하여 탐색합니다.\n"
+"시작 및 중지하려면 Enter 키를 누릅니다."
+
+#: MainWindow.vala:1028
+msgid "Utility for managing Conky configuration files"
+msgstr "Conky 구성 파일 관리를위한 유틸리티"
+
+#: EditWidgetWindow.vala:151
+msgid "Vertical Gap"
+msgstr "수직 간격"
+
+#: DonationWindow.vala:88
+msgid "Visit Website"
+msgstr "웹 사이트 방문"
+
+#: EditThemeWindow.vala:80 EditThemeWindow.vala:93
+msgid "Wallpaper"
+msgstr "배경화면"
+
+#: Main.vala:1977 Main.vala:1985
+msgid "Wallpaper saved"
+msgstr "배경 화면이 저장되었습니다."
+
+#: Utility.vala:107
+msgid "Warning"
+msgstr "경고"
+
+#: GeneratePreviewWindow.vala:87
+msgid ""
+"When enabled, the generated image will have the same background as the "
+"current desktop wallpaper. When disabled, the background will be a solid "
+"color (the widget's background color)."
+msgstr ""
+"활성화되면 생성 된 이미지는 현재 바탕 화면 배경 무늬와 동일한 배경을 갖게됩니"
+"다. 비활성화되면 배경이 단색 (위젯의 배경색)이됩니다."
+
+#: EditWidgetWindow.vala:416
+msgid "WiFi"
+msgstr "무선랜"
+
+#: EditWidgetWindow.vala:421
+msgid "WiFi Network"
+msgstr "WiFi 네트워크"
+
+#: EditThemeWindow.vala:222 MainWindow.vala:125
+msgid "Widgets"
+msgstr "위젯"
+
+#: EditWidgetWindow.vala:179
+msgid ""
+"Width should be larger than the size of window contents,\n"
+"otherwise this setting will not have any effect"
+msgstr ""
+"너비는 창 내용의 크기보다 커야합니다.\n"
+"그렇지 않으면이 설정은 효과가 없습니다."
+
+#: EditWidgetWindow.vala:295
+msgid ""
+"Window Opacity\n"
+"\n"
+"0 = Fully Transparent, 100 = Fully Opaque"
+msgstr ""
+"창 불투명도\n"
+"\n"
+"0 = 완전 투명, 100 = 완전 불투명"
+
+#: EditWidgetWindow.vala:430
+msgid "Wired LAN Network"
+msgstr "유선랜 네트워크"
+
+#: EditWidgetWindow.vala:140
+msgid "[GAP_X] Horizontal distance from window border (in pixels)"
+msgstr "[GAP_X] 창 테두리로부터의 수평 거리 (픽셀 단위)"
+
+#: EditWidgetWindow.vala:152
+msgid "[GAP_Y] Vertical distance from window border (in pixels)"
+msgstr "[GAP_Y] 창 테두리로부터의 수직 거리 (픽셀 단위)"

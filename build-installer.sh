@@ -1,6 +1,6 @@
 #!/bin/bash
 
-app_name='conky-manager'
+app_name='conky-manager2'
 app_fullname='Conky Manager'
 tgz="../../pbuilder/"
 dsc="../../builds/${app_name}*.dsc"

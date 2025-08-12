@@ -1,0 +1,797 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tony George (teejee2008@gmail.com)
+# This file is distributed under the same license as the conky-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: conky-manager 2.0\n"
+"Report-Msgid-Bugs-To: teejee2008@gmail.com\n"
+"POT-Creation-Date: 2017-05-07 11:57+0200\n"
+"PO-Revision-Date: 2017-05-07 12:30+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_NL\n"
+
+#: EditWidgetWindow.vala:384
+msgid "12 Hour"
+msgstr "12 uur"
+
+#: EditWidgetWindow.vala:386
+msgid "24 Hour"
+msgstr "24 uur"
+
+#: MainWindow.vala:423 MainWindow.vala:424
+msgid "About"
+msgstr "Over"
+
+#: SettingsWindow.vala:199
+msgid "Add"
+msgstr "Toevoegen"
+
+#: SettingsWindow.vala:152
+msgid "Additional locations to search for Conky themes"
+msgstr "Aanvullende locaties waarin gezocht moet worden naar Conky-thema's"
+
+#: EditWidgetWindow.vala:104
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: GeneratePreviewWindow.vala:69
+msgid "All Widgets (Overwrite Existing Image)"
+msgstr "Alle widgets (bestaande afbeelding overschrijven)"
+
+#: GeneratePreviewWindow.vala:66
+msgid "All Widgets with Missing Previews"
+msgstr "Alle widgets met ontbrekende voorbeelden"
+
+#: Main.vala:257
+msgid "App config loaded"
+msgstr "App-configuratie geladen"
+
+#: Main.vala:209
+msgid "App config saved"
+msgstr "App-configuratie opgeslagen"
+
+#: MainWindow.vala:405 SettingsWindow.vala:47
+msgid "Application Settings"
+msgstr "Applicatie-instellingen"
+
+#: EditWidgetWindow.vala:445
+msgid "Apply"
+msgstr "Toepassen"
+
+#: EditWidgetWindow.vala:448
+msgid "Apply Changes"
+msgstr "Wijzigingen toepassen"
+
+#: AboutWindow.vala:330
+#, c-format
+msgid "Artists"
+msgstr "Artiesten"
+
+#: AboutWindow.vala:314
+#, c-format
+msgid "Authors"
+msgstr "Auteurs"
+
+#: AboutWindow.vala:285
+msgid "Back"
+msgstr "Terug"
+
+#: EditWidgetWindow.vala:312
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: EditWidgetWindow.vala:125
+msgid "Bottom Left"
+msgstr "Onder - links"
+
+#: EditWidgetWindow.vala:129
+msgid "Bottom Middle"
+msgstr "Onder - midden"
+
+#: EditWidgetWindow.vala:127
+msgid "Bottom Right"
+msgstr "Onder - rechts"
+
+#: MainWindow.vala:121
+msgid "Browse:"
+msgstr "Bladeren:"
+
+#: EditThemeWindow.vala:212 GeneratePreviewWindow.vala:148
+#: SettingsWindow.vala:221
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: GeneratePreviewWindow.vala:83
+msgid "Capture Desktop Background"
+msgstr "Bureaubladachtergrond opnemen"
+
+#: EditThemeWindow.vala:130
+msgid "Choose File"
+msgstr "Bestand kiezen"
+
+#: AboutWindow.vala:295 EditWidgetWindow.vala:461
+msgid "Close"
+msgstr "Sluiten"
+
+#: Main.vala:164
+msgid "Commands listed below are not available"
+msgstr "De onderstaande opdrachten zijn niet beschikbaar"
+
+#: AboutWindow.vala:272 AboutWindow.vala:289 MainWindow.vala:257
+msgid "Credits"
+msgstr "Met dank aan"
+
+#: EditThemeWindow.vala:123
+msgid "Current Wallpaper"
+msgstr "Huidige achtergrond"
+
+#: Main.vala:1769
+msgid "Current wallpaper source path"
+msgstr "Bronpad van huidige achtergrond"
+
+#: EditThemeWindow.vala:115
+msgid "Custom Wallpaper"
+msgstr "Aangepaste achtergrond"
+
+#: DonationWindow.vala:54
+msgid ""
+"Did you find this software useful?\n"
+"\n"
+"You can buy me a coffee or make a donation via PayPal to show your support. "
+"Or just drop me an email and say Hi. This application is completely free and "
+"will continue to remain that way. Your contributions will help in keeping "
+"this project alive and improving it further.\n"
+"\n"
+"Feel free to send me an email if you find any issues in this application or "
+"if you need any changes. Suggestions and feedback are always welcome.\n"
+"\n"
+"Thanks,\n"
+"Tony George\n"
+"(teejeetech@gmail.com)"
+msgstr ""
+"Vindt u deze software handig?\n"
+"\n"
+"U kunt een kopje koffie voor me kopen of een donatie doen via PayPal om me "
+"te ondersteunen. Of stuur me een e-mail en zeg me gedag. Deze applicatie is "
+"volledig gratis en dat zal ook altijd zo blijven. Uw bijdragen helpen me om "
+"dit project te blijven ontwikkelen en te verbeteren.\n"
+"\n"
+"Stuur me een e-mail als u problemen ervaart met deze applicatie of als u "
+"dingen anders wilt zien. Suggesties en feedback worden altijd gewaardeerd!\n"
+"\n"
+"Bedankt,\n"
+"Tony George\n"
+"(teejeetech@gmail.com)"
+
+#: Main.vala:266 Main.vala:272 Main.vala:278
+msgid "Directory Created"
+msgstr "Map gecreëerd"
+
+#: EditWidgetWindow.vala:464
+msgid "Discard Changes"
+msgstr "Wijzigingen verwerpen"
+
+#: AboutWindow.vala:346
+#, c-format
+msgid "Documenters"
+msgstr "Documenteerders"
+
+#: DonationWindow.vala:36 MainWindow.vala:414 MainWindow.vala:415
+msgid "Donate"
+msgstr "Doneren"
+
+#: DonationWindow.vala:74
+msgid "Donate with Google Wallet"
+msgstr "Doneren met Google Wallet"
+
+#: DonationWindow.vala:67
+msgid "Donate with PayPal"
+msgstr "Doneren met PayPal"
+
+#: AboutWindow.vala:354
+#, c-format
+msgid "Donations"
+msgstr "Donaties"
+
+#: MainWindow.vala:328
+msgid "Edit"
+msgstr "Bewerken"
+
+#: EditThemeWindow.vala:57
+msgid "Edit Theme"
+msgstr "Thema bewerken"
+
+#: EditWidgetWindow.vala:64 MainWindow.vala:329
+msgid "Edit Widget"
+msgstr "Widget bewerken"
+
+#: MainWindow.vala:338
+msgid "Edit file manually in a text editor"
+msgstr "Bestand handmatig bewerken in een tekstbewerker"
+
+#: MainWindow.vala:444
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: MainWindow.vala:184
+msgid ""
+"Enter name or path to filter.\n"
+"Enter '0' to list running widgets"
+msgstr ""
+"Voer een naam of pad in om te filteren.\n"
+"Voer '0' in om een lijst weer te geven van draaiende widgets"
+
+#: MainWindow.vala:945 Utility.vala:107
+msgid "Error"
+msgstr "Fout"
+
+#: MainWindow.vala:945
+msgid "Failed to import themes"
+msgstr "Het importeren van thema's is mislukt"
+
+#: Utility.vala:1293
+msgid "Failed to set ownership"
+msgstr "Het instellen van rechten is mislukt"
+
+#: Main.vala:371
+msgid "Failed to unzip files from theme pack"
+msgstr "Het uitpakken van bestanden uit het themapakket is mislukt"
+
+#: MainWindow.vala:174
+msgid "Filter"
+msgstr "Filteren"
+
+#: Main.vala:560
+msgid "Font Copied: "
+msgstr "Lettertype gekopieerd:"
+
+#: Main.vala:319
+msgid "Found theme pack [installed]"
+msgstr "Themapakket gevonden [geïnstalleerd]"
+
+#: Main.vala:327
+msgid "Found theme pack [new]"
+msgstr "Themapakket gevonden [nieuw]"
+
+#: SettingsWindow.vala:76
+msgid "General"
+msgstr "Algemeen"
+
+#: GeneratePreviewWindow.vala:45 MainWindow.vala:369
+msgid "Generate Preview"
+msgstr "Voorbeeld genereren"
+
+#: MainWindow.vala:370
+msgid "Generate preview images"
+msgstr "Voorbeeldafbeeldingen genereren"
+
+#: GeneratePreviewWindow.vala:57
+msgid "Generate preview images for"
+msgstr "Voorbeeldafbeeldingen genereren voor"
+
+#: GeneratePreviewWindow.vala:108
+msgid "Generate preview images in PNG format instead of JPEG"
+msgstr "Voorbeeldafbeeldingen generen in PNG-formaat i.p.v. JPEG"
+
+#: MainWindow.vala:788 MainWindow.vala:862
+msgid "Generating Previews"
+msgstr "Bezig met genereren van voorbeelden"
+
+#: EditWidgetWindow.vala:213
+msgid "Height Padding"
+msgstr "Hoogtevulling"
+
+#: EditWidgetWindow.vala:195
+msgid ""
+"Height should be larger than the size of window contents,\n"
+"otherwise this setting will not have any effect"
+msgstr ""
+"De hoogte moet groter zijn dan de grootte van de vensterinhoud,\n"
+"anders heeft deze instelling geen effect"
+
+#: GeneratePreviewWindow.vala:104
+msgid "High quality images (PNG)"
+msgstr "Hoge kwaliteit afbeeldingen (PNG)"
+
+#: EditWidgetWindow.vala:139
+msgid "Horizontal Gap"
+msgstr "Horizontale kloof"
+
+#: MainWindow.vala:389
+msgid "Import"
+msgstr "Importeren"
+
+#: MainWindow.vala:901
+msgid "Import Theme Pack"
+msgstr "Themapakket importeren"
+
+#: MainWindow.vala:390
+msgid "Import Theme Pack (*.cmtp.7z)"
+msgstr "Themapakket importeren (*.cmtp.7z)"
+
+#: Main.vala:363
+msgid "Importing"
+msgstr "Bezig met importeren"
+
+#: EditThemeWindow.vala:80
+msgid "Include desktop wallpaper in theme"
+msgstr "Bureaubladachtergrond opnemen in thema"
+
+#: EditThemeWindow.vala:222 EditThemeWindow.vala:223
+msgid "Include running widgets in theme"
+msgstr "Draaiende widgets opnemen in thema"
+
+#: EditWidgetWindow.vala:210
+msgid ""
+"Increases the window height by adding empty lines at the end of the Conky "
+"config file"
+msgstr ""
+"Vensterhoogte vergroten door lege regels toe te voegen aan het einde van het "
+"Conky-configuratiebestand"
+
+#: EditWidgetWindow.vala:406
+msgid "Interface"
+msgstr "Uiterlijk"
+
+#: EditWidgetWindow.vala:425
+msgid "LAN"
+msgstr "LAN"
+
+#: MainWindow.vala:200
+msgid "List"
+msgstr "Lijst"
+
+#: EditWidgetWindow.vala:475
+msgid "Loading"
+msgstr "Bezig met laden"
+
+#: EditWidgetWindow.vala:88 SettingsWindow.vala:173
+msgid "Location"
+msgstr "Locatie"
+
+#: SettingsWindow.vala:126
+msgid "Locations"
+msgstr "Locaties"
+
+#: MainWindow.vala:337
+msgid "Manual Edit"
+msgstr "Handmatig bewerken"
+
+#: EditWidgetWindow.vala:131
+msgid "Middle Left"
+msgstr "Midden - links"
+
+#: EditWidgetWindow.vala:135
+msgid "Middle Middle"
+msgstr "Midden - midden"
+
+#: EditWidgetWindow.vala:133
+msgid "Middle Right"
+msgstr "Midden - rechts"
+
+#: EditWidgetWindow.vala:198
+msgid "Minimum Height"
+msgstr "Minimale hoogte"
+
+#: EditWidgetWindow.vala:182
+msgid "Minimum Width"
+msgstr "Minimale breedte"
+
+#: Main.vala:133
+msgid "Missing Dependencies"
+msgstr "Ontbrekende afhankelijkheden"
+
+#: Utility.vala:1023
+msgid "Missing Icon"
+msgstr "Ontbrekend pictogram"
+
+#: MainWindow.vala:1063
+msgid "N/A"
+msgstr "n.v.t."
+
+#: EditThemeWindow.vala:328
+msgid "Name Required"
+msgstr "Naam vereist"
+
+#: EditWidgetWindow.vala:390
+msgid "Network"
+msgstr "Netwerk"
+
+#: EditWidgetWindow.vala:522
+msgid "Network interface cannot be changed for selected widget"
+msgstr ""
+"De netwerkinterface van de geselecteerde widget kan niet worden gewijzigd"
+
+#: MainWindow.vala:296
+msgid "Next"
+msgstr "Volgende"
+
+#: MainWindow.vala:297
+msgid "Next Widget"
+msgstr "Volgende widget"
+
+#: EditThemeWindow.vala:341
+msgid "No Widgets Selected"
+msgstr "Geen widgets geselecteerd"
+
+#: EditThemeWindow.vala:113
+msgid "None"
+msgstr "Geen"
+
+#: DonationWindow.vala:95 EditThemeWindow.vala:205
+#: GeneratePreviewWindow.vala:125 SettingsWindow.vala:215
+msgid "OK"
+msgstr "Oké"
+
+#: EditWidgetWindow.vala:298
+msgid "Opacity (%)"
+msgstr "Ondoorzichtigheid (%)"
+
+#: EditWidgetWindow.vala:286
+msgid "Opaque"
+msgstr "Ondoorzichtig"
+
+#: MainWindow.vala:346
+msgid "Open Folder"
+msgstr "Map openen"
+
+#: MainWindow.vala:347
+msgid "Open Theme Folder"
+msgstr "Themamap openen"
+
+#: GeneratePreviewWindow.vala:72
+msgid "Options"
+msgstr "Opties"
+
+#: EditThemeWindow.vala:329
+msgid "Please enter theme name"
+msgstr "Voer een themanaam in"
+
+#: Main.vala:165
+msgid "Please install required packages and try running it again"
+msgstr "Installeer de vereiste pakketten en probeer het opnieuw"
+
+#: MainWindow.vala:194
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: MainWindow.vala:287
+msgid "Previous"
+msgstr "Vorige"
+
+#: MainWindow.vala:288
+msgid "Previous Widget"
+msgstr "Vorige widget"
+
+#: EditWidgetWindow.vala:290
+msgid "Pseudo-Transparent"
+msgstr "Pseudo-doorzichtig"
+
+#: MainWindow.vala:360
+msgid "Refresh"
+msgstr "Verversen"
+
+#: SettingsWindow.vala:205
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: EditWidgetWindow.vala:453
+msgid "Reset"
+msgstr "Standaardwaarden"
+
+#: EditWidgetWindow.vala:456
+msgid "Reset Changes"
+msgstr "Wijzigen herstellen"
+
+#: SettingsWindow.vala:86
+msgid "Run Conky at system startup"
+msgstr "Conky opstarten bij systeemopstart"
+
+#: EditThemeWindow.vala:57 MainWindow.vala:160
+msgid "Save Theme"
+msgstr "Thema opslaan"
+
+#: MainWindow.vala:164
+msgid "Save running widgets and current desktop wallpaper as new theme"
+msgstr ""
+"Draaiende widgets en huidige bureaubladachtergrond opslaan als nieuw thema"
+
+#: Main.vala:955
+msgid "Saved"
+msgstr "Opgeslagen"
+
+#: EditThemeWindow.vala:152
+msgid "Scaling"
+msgstr "Schaling"
+
+#: MainWindow.vala:361
+msgid "Search for new themes"
+msgstr "Zoeken naar nieuwe thema's"
+
+#: MainWindow.vala:1075
+msgid "Searching directories..."
+msgstr "Bezig met doorzoeken van mappen..."
+
+#: Main.vala:407
+#, c-format
+msgid "Searching for conkyrc files... %d found"
+msgstr "Bezig met zoeken naar conkyrc-bestanden... %d gevonden"
+
+#: EditThemeWindow.vala:135
+msgid "Select Wallpaper"
+msgstr "Achtergrond selecteren"
+
+#: SettingsWindow.vala:270
+msgid "Select directory"
+msgstr "Map selecteren"
+
+#: EditThemeWindow.vala:342
+msgid "Select the widgets to include in theme"
+msgstr "Selecteer de widgets die moeten worden opgenomen in het thema"
+
+#: GeneratePreviewWindow.vala:63
+msgid "Selected Widget"
+msgstr "Geselecteerde widget"
+
+#: EditWidgetWindow.vala:292
+msgid "Semi-Transparent"
+msgstr "Semi-doorzichtig"
+
+#: DonationWindow.vala:81
+msgid "Send Email"
+msgstr "E-mail versturen"
+
+#: EditWidgetWindow.vala:240
+msgid ""
+"Setting Type to \"Opaque\" (from the transparency tab) will make it easier "
+"to see the changes"
+msgstr ""
+"Het instellen van het type op \"Ondoorzichtig\" (op het "
+"doorzichtigheidstabblad) maakt het makkelijker om wijzigingen te zien"
+
+#: EditWidgetWindow.vala:335
+msgid ""
+"Setting Type to \"Pseudo-Transparent\" will make the window transparent but "
+"the window will have a shadow. The shadow can be disabled by configuring "
+"your window manager."
+msgstr ""
+"Het instellen van het type op \"Pseudo-doorzichtig\" maakt het venster "
+"doorzichtig en voegt een schaduw toe. De schaduw kan worden uitgeschakeld "
+"door het instellen van uw vensterbeheerder."
+
+#: EditWidgetWindow.vala:325
+msgid ""
+"Setting Type to \"Transparent\" will make the whole window transparent "
+"(including any images). Use \"Pseudo-Transparent\" if you want the images to "
+"be opaque."
+msgstr ""
+"Het instellen van het type op \"Doorzichtig\" maakt het hele venster "
+"doorzichtig (inclusief alle afbeeldingen). Gebruik \"Pseudo-doorzichtig\" "
+"als u wilt dat de afbeeldingen ondoorzichtig zijn."
+
+#: MainWindow.vala:404
+msgid "Settings"
+msgstr "Instellingen"
+
+#: EditWidgetWindow.vala:164
+msgid "Size"
+msgstr "Grootte"
+
+#: MainWindow.vala:247
+msgid "Source"
+msgstr "Bron"
+
+#: MainWindow.vala:305 MainWindow.vala:314
+msgid "Start"
+msgstr "Starten"
+
+#: MainWindow.vala:306
+msgid "Start/Restart Widget"
+msgstr "Widget starten/herstarten"
+
+#: Main.vala:866
+msgid "Started"
+msgstr "Gestart"
+
+#: SettingsWindow.vala:105
+msgid "Startup Delay (seconds)"
+msgstr "Opstartvertraging (seconden)"
+
+#: MainWindow.vala:229 MainWindow.vala:231
+msgid "Stop"
+msgstr "Stoppen"
+
+#: MainWindow.vala:380
+msgid "Stop All Widgets"
+msgstr "Alle widgets stoppen"
+
+#: MainWindow.vala:315
+msgid "Stop Widget"
+msgstr "Widget stoppen"
+
+#: MainWindow.vala:381
+msgid "Stop all running widgets"
+msgstr "Alle draaiende widgets stoppen"
+
+#: Main.vala:892 Utility.vala:751
+msgid "Stopped"
+msgstr "Gestopt"
+
+#: EditWidgetWindow.vala:230
+msgid ""
+"The minimum width & height must be more than the size of the window "
+"contents, otherwise the setting will not have any effect."
+msgstr ""
+"De minimale breedte en hoogte moeten groter zijn dan de grootte van de "
+"vensterinhoud, anders heeft deze instelling geen effect."
+
+#: SettingsWindow.vala:137
+msgid "Theme Directory"
+msgstr "Themamap"
+
+#: EditThemeWindow.vala:67
+msgid "Theme Name"
+msgstr "Themanaam"
+
+#: MainWindow.vala:129
+msgid "Themes"
+msgstr "Thema's"
+
+#: MainWindow.vala:942
+msgid "Themes Imported"
+msgstr "Thema's geïmporteerd"
+
+#: MainWindow.vala:942
+msgid "Themes imported successfully"
+msgstr "De thema's zijn succesvol geïnstalleerd"
+
+#: AboutWindow.vala:322
+#, c-format
+msgid "Third Party Tools"
+msgstr "Externe hulpmiddelen"
+
+#: EditWidgetWindow.vala:346
+msgid "Time"
+msgstr "Tijd"
+
+#: EditWidgetWindow.vala:362
+msgid "Time Format"
+msgstr "Tijdsopmaak"
+
+#: EditWidgetWindow.vala:506
+msgid "Time format cannot be changed for selected widget"
+msgstr "De tijdsopmaak van de geselecteerde widget kan niet worden gewijzigd"
+
+#: MainWindow.vala:202
+msgid "Toggle List"
+msgstr "Lijst weergeven/verbergen"
+
+#: MainWindow.vala:196
+msgid "Toggle Preview"
+msgstr "Voorbeeld weergeven/verbergen"
+
+#: EditWidgetWindow.vala:119
+msgid "Top Left"
+msgstr "Boven - links"
+
+#: EditWidgetWindow.vala:123
+msgid "Top Middle"
+msgstr "Boven - midden"
+
+#: EditWidgetWindow.vala:121
+msgid "Top Right"
+msgstr "Boven - rechts"
+
+#: AboutWindow.vala:338
+#, c-format
+msgid "Translators"
+msgstr "Vertalers"
+
+#: EditWidgetWindow.vala:251
+msgid "Transparency"
+msgstr "Doorzichtigheid"
+
+#: EditWidgetWindow.vala:268
+msgid "Transparency Type"
+msgstr "Doorzichtigheidstype"
+
+#: EditWidgetWindow.vala:288
+msgid "Transparent"
+msgstr "Doorzichtig"
+
+#: EditWidgetWindow.vala:545
+msgid "Updating theme"
+msgstr "Bezig met bijwerken van thema"
+
+#: MainWindow.vala:480
+msgid ""
+"Use the keyboard arrow keys to browse.\n"
+"Press ENTER to start and stop."
+msgstr ""
+"Gebruik de pijltjestoetsen om te bladeren.\n"
+"Druk op ENTER op te starten en te stoppen."
+
+#: MainWindow.vala:1009
+msgid "Utility for managing Conky configuration files"
+msgstr "Hulpmiddel voor het beheren van Conky-configuratiebestanden"
+
+#: EditWidgetWindow.vala:151
+msgid "Vertical Gap"
+msgstr "Verticale kloof"
+
+#: DonationWindow.vala:88
+msgid "Visit Website"
+msgstr "Website bezoeken"
+
+#: EditThemeWindow.vala:80 EditThemeWindow.vala:93
+msgid "Wallpaper"
+msgstr "Achtergrond"
+
+#: Main.vala:1773 Main.vala:1781
+msgid "Wallpaper saved"
+msgstr "Achtergrond opgeslagen"
+
+#: Utility.vala:107
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: GeneratePreviewWindow.vala:87
+msgid ""
+"When enabled, the generated image will have the same background as the "
+"current desktop wallpaper. When disabled, the background will be a solid "
+"color (the widget's background color)."
+msgstr ""
+"Als dit wordt ingeschakeld, dan zal de gegenereerde afbeelding dezelfde "
+"achtergrond hebben als de huidige bureaubladachtergrond. Als dit wordt "
+"uitgeschakeld, dan zal de achtergrond een effen kleur hebben (de "
+"achtergrondkleur van de widget)."
+
+#: EditWidgetWindow.vala:416
+msgid "WiFi"
+msgstr "Wi-Fi"
+
+#: EditWidgetWindow.vala:421
+msgid "WiFi Network"
+msgstr "Wi-Fi-netwerk"
+
+#: EditThemeWindow.vala:222 MainWindow.vala:125
+msgid "Widgets"
+msgstr "Widgets"
+
+#: EditWidgetWindow.vala:179
+msgid ""
+"Width should be larger than the size of window contents,\n"
+"otherwise this setting will not have any effect"
+msgstr ""
+"De breedte moet groter zijn dan de vensterinhoud,\n"
+"anders heeft deze instelling geen effect."
+
+#: EditWidgetWindow.vala:295
+msgid ""
+"Window Opacity\n"
+"\n"
+"0 = Fully Transparent, 100 = Fully Opaque"
+msgstr ""
+"Vensterondoorzichtigheid\n"
+"\n"
+"0 = volledig doorzichtig, 100 = volledig ondoorzichtig"
+
+#: EditWidgetWindow.vala:430
+msgid "Wired LAN Network"
+msgstr "Bedraad LAN-netwerk"
+
+#: EditWidgetWindow.vala:140
+msgid "[GAP_X] Horizontal distance from window border (in pixels)"
+msgstr "[GAP_X] Horizontale afstand vanaf de vensterrand (in pixels)"
+
+#: EditWidgetWindow.vala:152
+msgid "[GAP_Y] Vertical distance from window border (in pixels)"
+msgstr "[GAP_Y] Verticale afstand vanaf de vensterrand (in pixels)"

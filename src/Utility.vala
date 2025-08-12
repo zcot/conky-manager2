@@ -262,6 +262,22 @@ namespace TeeJee.FileSystem{
 	    return null;
 	}
 	
+	public bool append_file (string file_path, string contents){
+		
+		/* Append text to file */
+		File file = File.new_for_path (file_path);
+		try{
+			FileOutputStream file_stream = file.append_to (FileCreateFlags.NONE);
+			file_stream.write (contents.data);
+			return true;
+		}
+		catch (Error e) {
+	        log_error (e.message);
+	        return false;
+	    } 
+	}
+
+	
 	public bool write_file (string file_path, string contents){
 		
 		/* Write text to file */

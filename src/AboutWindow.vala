@@ -45,7 +45,9 @@ public class AboutWindow : Dialog {
 	private Label lbl_version;
 	private Label lbl_comments;
 	private LinkButton lbtn_website;
+	private LinkButton lbtn_website2;
 	private Label lbl_copyright;
+	private Label lbl_copyright2;
 
 	private string[] _artists;
 	public string[] artists{
@@ -84,6 +86,16 @@ public class AboutWindow : Dialog {
 		}
 		set{
 			_copyright = value;
+		}
+	}
+
+	private string _copyright2 = "";
+	public string copyright2{
+		get{
+			return _copyright2;
+		}
+		set{
+			_copyright2 = value;
 		}
 	}
 
@@ -187,6 +199,26 @@ public class AboutWindow : Dialog {
 		}
 	}
 	
+	private string _website2 = "";
+	public string website2{
+		get{
+			return _website2;
+		}
+		set{
+			_website2 = value;
+		}
+	}
+
+	private string _website_label2 = "";
+	public string website_label2{
+		get{
+			return _website_label2;
+		}
+		set{
+			_website_label2 = value;
+		}
+	}
+	
 	public AboutWindow() {
         window_position = WindowPosition.CENTER_ON_PARENT;
 		set_destroy_with_parent (true);
@@ -251,6 +283,26 @@ public class AboutWindow : Dialog {
 		lbl_copyright.margin_top = 5;
 		vbox_logo.add(lbl_copyright);
 
+		//website2
+		lbtn_website2 = new LinkButton("");
+		lbtn_website2.margin_top = 5;
+		vbox_logo.add(lbtn_website2);
+
+		lbtn_website2.activate_link.connect(()=>{
+			try{
+				return Gtk.show_uri(null, lbtn_website2.uri, Gdk.CURRENT_TIME); 
+			}
+			catch(Error e){
+				return false;
+			}
+		});
+		
+		//copyright2
+		lbl_copyright2 = new Label("");
+		lbl_copyright2.set_use_markup(true);
+		lbl_copyright2.margin_top = 5;
+		vbox_logo.add(lbl_copyright2);
+
 		//spacer_bottom
 		var spacer_bottom = new Label("");
 		spacer_bottom.margin_top = 20;
@@ -309,6 +361,10 @@ public class AboutWindow : Dialog {
 		lbtn_website.label = website_label;
 		//lbl_copyright.label = "<span size='smaller'>%s</span>".printf(copyright);
 		lbl_copyright.label = "<span>%s</span>".printf(copyright);
+		lbtn_website2.uri = website2;
+		lbtn_website2.label = website_label2;
+		//lbl_copyright.label = "<span size='smaller'>%s</span>".printf(copyright);
+		lbl_copyright2.label = "<span>%s</span>".printf(copyright2);
 		
 		if (authors.length > 0){
 			add_line("<b>%s</b>\n".printf(_("Authors")));

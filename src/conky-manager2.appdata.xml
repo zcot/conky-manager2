@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2014 Tony George <teejeetech@gmail.com> -->
 <application>
- <id type="desktop">conky-manager.desktop</id>
+ <id type="desktop">conky-manager2.desktop</id>
  <metadata_license>CC0-1.0</metadata_license>
  <project_license>GPL-2.0+</project_license>
  <name>Conky Manager</name>

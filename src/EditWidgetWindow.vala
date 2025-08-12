@@ -476,6 +476,17 @@ public class EditWidgetWindow : Dialog {
 
 		conf.read_file();
 		
+		//check for 1.10 config version
+		//default: one_ten_config = false;
+		string std_out = "";
+		string std_err = "";
+		string cmd = "grep -r \"conky\\.text[[:blank:]]*=\" \"%s\"".printf(conf.path);
+		int exit_code = execute_command_script_sync(cmd, out std_out, out std_err);
+
+		if (exit_code == 0){
+			conf.one_ten_config = true;
+		}
+
 		//location
 		gtk_combobox_set_value(cmb_alignment, 1, conf.alignment);
 		spin_gap_x.value = double.parse(conf.gap_x);
@@ -493,9 +504,15 @@ public class EditWidgetWindow : Dialog {
 		cbtn_bg_color.rgba = hex_to_rgba(conf.own_window_colour);
 		
 		//window size 
-		string size = conf.minimum_size;
-		spin_min_width.value = int.parse(size.split(" ")[0]);
-		spin_min_height.value = int.parse(size.split(" ")[1]);
+		if (conf.one_ten_config){
+			spin_min_width.value = int.parse(conf.minimum_width);
+			spin_min_height.value = int.parse(conf.minimum_height);
+		}
+		else{
+			string size = conf.minimum_size;
+			spin_min_width.value = int.parse(size.split(" ")[0]);
+			spin_min_height.value = int.parse(size.split(" ")[1]);
+		}
 		spin_height_padding.value = conf.height_padding;
 		
 		//time
@@ -541,6 +558,17 @@ public class EditWidgetWindow : Dialog {
 		conf.stop();
 		conf.read_file();
 		
+		//check for 1.10 config version
+		//default: one_ten_config = false;
+		string std_out = "";
+		string std_err = "";
+		string cmd = "grep -r \"conky\\.text[[:blank:]]*=\" \"%s\"".printf(conf.path);
+		int exit_code = execute_command_script_sync(cmd, out std_out, out std_err);
+
+		if (exit_code == 0){
+			conf.one_ten_config = true;
+		}
+
 		debug("-----------------------------------------------------");
 		debug(_("Updating theme") + ": %s".printf(conf.name));
 
@@ -550,12 +578,18 @@ public class EditWidgetWindow : Dialog {
 		conf.gap_y = spin_gap_y.value.to_string();
 		
 		//transparency
-		conf.own_window_argb_value = "%.0f".printf((spin_opacity.value / 100.0) * 255.0);
 		conf.transparency = gtk_combobox_get_value(cmb_transparency_type,1,"semi");
+		conf.own_window_argb_value = "%.0f".printf((spin_opacity.value / 100.0) * 255.0);
 		conf.own_window_colour = rgba_to_hex(cbtn_bg_color.rgba, false, false); 
 		
 		//window size 
-		conf.minimum_size = spin_min_width.value.to_string() + " " + spin_min_height.value.to_string();
+		if (conf.one_ten_config){
+			conf.minimum_width = spin_min_width.value.to_string();
+			conf.minimum_height = spin_min_height.value.to_string();
+		}
+		else{
+			conf.minimum_size = spin_min_width.value.to_string() + " " + spin_min_height.value.to_string();
+		}
 		conf.height_padding = (int) spin_height_padding.value;
 		
 		//time

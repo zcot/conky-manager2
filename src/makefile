@@ -6,7 +6,7 @@ launcherdir=$(sharedir)/applications
 mandir=$(sharedir)/man
 man1dir=$(mandir)/man1
 CFLAGS=--std=c99
-app_name=conky-manager
+app_name=conky-manager2
 app_fullname="Conky Manager"
 
 all:
@@ -23,6 +23,7 @@ install:
 	mkdir -p $(DESTDIR)$(bindir)
 	mkdir -p $(DESTDIR)$(sharedir)
 	mkdir -p $(DESTDIR)$(launcherdir)
+	mkdir -p $(DESTDIR)$(man1dir)
 	mkdir -p $(DESTDIR)$(sharedir)/${app_name}
 	mkdir -p $(DESTDIR)$(sharedir)/pixmaps
 	mkdir -p $(DESTDIR)$(sharedir)/appdata
@@ -33,6 +34,10 @@ install:
 	
 	#launcher
 	install -m 0755 ${app_name}.desktop "$(DESTDIR)$(launcherdir)"
+	
+	#manual
+	install -m 0755 ../man/${app_name}.1 "$(DESTDIR)$(man1dir)"
+	gzip "$(DESTDIR)$(man1dir)/${app_name}.1"
 	
 	#app icon
 	install -m 0755 share/pixmaps/${app_name}.png "$(DESTDIR)$(sharedir)/pixmaps"
@@ -46,11 +51,29 @@ install:
 	
 	#translations
 	mkdir -p "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES"
-	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-cs.po
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/cs_CZ/LC_MESSAGES/${app_name}.mo" ../po/cs.po
+	
+	mkdir -p "$(DESTDIR)$(localedir)/de_DE/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/de_DE/LC_MESSAGES/${app_name}.mo" ../po/de.po
+	
+	mkdir -p "$(DESTDIR)$(localedir)/es_ES/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/es_ES/LC_MESSAGES/${app_name}.mo" ../po/es.po
+	
+	mkdir -p "$(DESTDIR)$(localedir)/fr_FR/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/fr_FR/LC_MESSAGES/${app_name}.mo" ../po/fr.po
 	
 	mkdir -p "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES"
-	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-hr.po
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/hr_HR/LC_MESSAGES/${app_name}.mo" ../po/hr.po
 	
+	mkdir -p "$(DESTDIR)$(localedir)/nl_NL/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/nl_NL/LC_MESSAGES/${app_name}.mo" ../po/nl.po
+	
+	mkdir -p "$(DESTDIR)$(localedir)/pt_BR/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/pt_BR/LC_MESSAGES/${app_name}.mo" ../po/pt_BR.po
+	
+	mkdir -p "$(DESTDIR)$(localedir)/ko_KR/LC_MESSAGES"
+	msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/ko_KR/LC_MESSAGES/${app_name}.mo" ../po/ko.po
+
 uninstall:
 	#binary
 	rm -f "$(DESTDIR)$(bindir)/${app_name}"
@@ -59,14 +82,17 @@ uninstall:
 	#launcher
 	rm -f "$(DESTDIR)$(launcherdir)/${app_name}.desktop"
 	
+	#manual
+	rm -f "$(DESTDIR)$(man1dir)/${app_name}.1"
+	
 	#app icon
 	rm -f "$(DESTDIR)$(sharedir)/pixmaps/${app_name}.png"
-
+	
 	#appdata.xml
 	rm -f "$(DESTDIR)$(sharedir)/appdata/${app_name}.appdata.xml"
 	
 	#shared files
 	rm -rf "$(DESTDIR)$(sharedir)/${app_name}"
-
+	
     #translations
 	rm -f $(DESTDIR)$(localedir)/*/LC_MESSAGES/${app_name}.mo

@@ -110,7 +110,7 @@ public class SettingsWindow : Dialog {
 		hbox_startup_delay.add(lbl_startup_delay);
 		
 		//spin_startup_delay
-		spin_startup_delay = new SpinButton.with_range(-100,100,10);
+		spin_startup_delay = new SpinButton.with_range(0,120,10);
 		spin_startup_delay.xalign = (float) 0.5;
 		spin_startup_delay.value = App.startup_delay;
 		spin_startup_delay.set_size_request(100,20);

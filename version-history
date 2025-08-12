@@ -2,3 +2,9 @@
 **v1.0** Initial release
 **v1.1** 'Edit' tab for changing location, size & transparency
 **v1.2** Options to edit time and network interface
+**v1.2 - v2.4** Unknown changes by teejee2008
+**v2.5** Transition to fork for 'conky-manager2' adding conky 1.10 support and Dutch translation.
+**v2.6** Portuguese-Brazil added, default nvidia theme fix, support for import on non-ConkyManagerTheme archive.
+**v2.7** Fix 'Edit Widget' now includes network interface replacement for conky 'if_up' and 'addr' variables.
+**v2.72** French and German translations, lua detection additions, meson vscode and small fixes.
+**v2.73** Korean translation, debian packaging updates, add quality icon artwork.

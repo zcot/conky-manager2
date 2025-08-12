@@ -55,6 +55,7 @@ public class MainWindow : Window {
 	private ToolButton btn_prev;
 	private ToolButton btn_next;
 	private ToolButton btn_start;
+	private ToolButton btn_start_terminal;
 	private ToolButton btn_stop;
 	private ToolButton btn_edit;
 	private ToolButton btn_edit_gui;
@@ -286,7 +287,7 @@ public class MainWindow : Window {
 		btn_prev.is_important = false;
 		btn_prev.label = _("Previous");
 		btn_prev.set_tooltip_text (_("Previous Widget"));
-        toolbar.add(btn_prev);
+//        toolbar.add(btn_prev);
 
         btn_prev.clicked.connect(btn_prev_clicked);
 
@@ -295,9 +296,19 @@ public class MainWindow : Window {
 		btn_next.is_important = false;
 		btn_next.label = _("Next");
 		btn_next.set_tooltip_text (_("Next Widget"));
-        toolbar.add(btn_next);
+//        toolbar.add(btn_next);
 
         btn_next.clicked.connect(btn_next_clicked);
+
+		//btn_start terminal
+		btn_start_terminal = new Gtk.ToolButton.from_stock ("gtk-media-play");
+		btn_start_terminal.is_important = false;
+		btn_start_terminal.icon_widget = get_shared_icon("utilities-terminal","utilities-terminal.png",32);
+		btn_start_terminal.label = _("Terminal Start");
+		btn_start_terminal.set_tooltip_text (_("Start/Restart Widget in Terminal"));
+        toolbar.add(btn_start_terminal);
+
+        btn_start_terminal.clicked.connect(btn_start_terminal_clicked);
 
 		//btn_start
 		btn_start = new Gtk.ToolButton.from_stock ("gtk-media-play");
@@ -387,7 +398,7 @@ public class MainWindow : Window {
 		btn_import_themes = new Gtk.ToolButton.from_stock ("gtk-open");
 		btn_import_themes.is_important = false;
 		btn_import_themes.label = _("Import");
-		btn_import_themes.set_tooltip_text (_("Import Theme Pack (*.cmtp.7z)"));
+		btn_import_themes.set_tooltip_text (_("Import Theme Pack (*.cmtp.7z) or various archive type"));
         toolbar.add(btn_import_themes);
 
         btn_import_themes.clicked.connect(btn_import_themes_clicked);
@@ -411,8 +422,8 @@ public class MainWindow : Window {
 		btn_donate = new Gtk.ToolButton.from_stock ("gtk-dialog-info");
 		btn_donate.is_important = false;
 		btn_donate.icon_widget = get_shared_icon("donate","donate.svg",32);
-		btn_donate.label = _("Donate");
-		btn_donate.set_tooltip_text (_("Donate"));
+		btn_donate.label = _("Funding");
+		btn_donate.set_tooltip_text (_("Funding Support"));
         toolbar.add(btn_donate);
 
         btn_donate.clicked.connect(() => { show_donation_window(false); });
@@ -554,9 +565,9 @@ public class MainWindow : Window {
         foreach(string uri in data.get_uris()){
 			string file = uri.replace("file://","").replace("file:/","");
 			file = Uri.unescape_string(file);
-			if (file.has_suffix(".cmtp.7z")){
+			if ( file.has_suffix(".7z") || file.has_suffix(".bz2") || file.has_suffix(".gz") 
+                || file.has_suffix(".xz") || file.has_suffix(".tar") || file.has_suffix(".zip") )
 				files.append(file);
-			}
 		}
 
 		install_theme_packs(files);
@@ -625,7 +636,51 @@ public class MainWindow : Window {
 
 		show_preview(selected_item());
 	}
-	
+
+	private void btn_start_terminal_clicked(){
+		TreeModel model;
+		TreeStore store = (TreeStore) filterThemes.child_model;
+		TreeSelection selection = tv_widget.get_selection();
+		TreeIter iter, child_iter;
+		ConkyConfigItem item;
+
+		//check if selected
+		if (selection.count_selected_rows() == 0){ return; }
+
+		//get item
+		selection.get_selected(out model, out iter);
+		model.get(iter,1,out item,-1);
+
+		//show busy icon
+		gtk_set_busy(true, this);
+		gtk_do_events();
+
+		//start item
+		item.terminal_start();
+		show_preview(item);
+
+		//hide busy icon
+		gtk_set_busy(false, this);
+
+		//uncheck other items
+		if (item is ConkyTheme){
+			TreeIter iter2;
+			bool iterExists = model.get_iter_first (out iter2);
+			while (iterExists){
+				if (iter2 != iter){
+					//uncheck
+					filterThemes.convert_iter_to_child_iter(out child_iter, iter2);
+					store.set(child_iter, 0, false);
+				}
+				iterExists = model.iter_next (ref iter2);
+			}
+		}
+
+		//check item
+		filterThemes.convert_iter_to_child_iter(out child_iter, iter);
+		store.set(child_iter, 0, true, -1);
+	}
+
 	private void btn_start_clicked(){
 		TreeModel model;
 		TreeStore store = (TreeStore) filterThemes.child_model;
@@ -723,7 +778,9 @@ public class MainWindow : Window {
 	
 	private void btn_edit_clicked(){
 		ConkyConfigItem item = selected_item();
-		if (item != null) { exo_open_textfile(item.path); };
+		/*if (item != null) { exo_open_textfile(item.path); };
+        what is going on here, xdg-open should be sufficient. */
+		if (item != null) { xdg_open(item.path); };
 	}
 
 	private void btn_open_dir_clicked(){
@@ -898,7 +955,7 @@ public class MainWindow : Window {
 	}
 
 	private void btn_import_themes_clicked(){
-		var dlgAddFiles = new Gtk.FileChooserDialog(_("Import Theme Pack") + " (*.cmtp.7z)", this, Gtk.FileChooserAction.OPEN,
+		var dlgAddFiles = new Gtk.FileChooserDialog(_("Import") + " (cmtp.7z; 7z; gz; bz2; xz; tar; zip; etc.)", this, Gtk.FileChooserAction.OPEN,
 							"gtk-cancel", Gtk.ResponseType.CANCEL,
 							"gtk-open", Gtk.ResponseType.ACCEPT);
 		dlgAddFiles.local_only = true;
@@ -906,8 +963,20 @@ public class MainWindow : Window {
  		dlgAddFiles.set_select_multiple (true);
  		
 		Gtk.FileFilter filter = new Gtk.FileFilter ();
-		dlgAddFiles.set_filter (filter);
+		//dlgAddFiles.set_filter (filter);
 		filter.add_pattern ("*.cmtp.7z");
+		filter.add_pattern ("*.7z");
+		filter.add_pattern ("*.tar.7z");
+		filter.add_pattern ("*.gz");
+		filter.add_pattern ("*.tar.gz");
+		filter.add_pattern ("*.bz2");
+		filter.add_pattern ("*.tar.bz2");
+		filter.add_pattern ("*.xz");
+		filter.add_pattern ("*.tar.xz");
+		filter.add_pattern ("*.tar");
+		filter.add_pattern ("*.zip");
+        filter.set_name("Conky Manager Theme or various compressed archive");
+		dlgAddFiles.add_filter (filter);
 		
 		//show the dialog and get list of files
 		SList<string> files = null;
@@ -929,9 +998,11 @@ public class MainWindow : Window {
 		
 		bool ok = true;
 		foreach (string file in files){
-			if (file.has_suffix(".cmtp.7z")){
+			if (file.has_suffix(".tar.7z") || file.has_suffix(".tar.bz2") || file.has_suffix(".tar.gz") 
+                || file.has_suffix(".tar.xz") || file.has_suffix(".tar"))
+				ok = ok && App.install_theme_pack(file, true);
+            else
 				ok = ok && App.install_theme_pack(file);
-			}
 		}
 		
 		scan_themes();
@@ -967,10 +1038,16 @@ public class MainWindow : Window {
 		dialog.set_transient_for (this);
 
 		dialog.authors = {
-			"Tony George:teejeetech@gmail.com"
+			"Tony George:teejeetech@gmail.com",
+			"Scott Caudle:zcotcaudle@gmail.com"
 		};
 
 		dialog.translators = {
+			"yeji0407 (Korean):github.com/yeji0407",
+			"freddii (German):github.com/freddii",
+			"fehlix (French):github.com/fehlix",
+			"tioguda (Portuguese - Brazil):github.com/tioguda",
+			"Vistaus (Dutch):github.com/Vistaus",
 			"gogo (Croatian):launchpad.net/~trebelnik-stefina",
 			"Radek Otáhal (Czech):radek.otahal@email.cz"
 		}; 
@@ -984,7 +1061,10 @@ public class MainWindow : Window {
 		}; 
 		
 		dialog.documenters = null; 
-		dialog.artists = null;
+		dialog.artists = {
+			"Morten Kjeldgaard"
+		}; 
+		
 		dialog.donations = {
 			"Adam Simmons",
 			"Andre Strobach",
@@ -1008,12 +1088,15 @@ public class MainWindow : Window {
 		dialog.program_name = AppName;
 		dialog.comments = _("Utility for managing Conky configuration files");
 		dialog.copyright = "Copyright © 2014 Tony George (%s)".printf(AppAuthorEmail);
+		dialog.copyright2 = "Copyright © 2018 Scott Caudle (%s)".printf(AppAuthorEmail2);
 		dialog.version = AppVersion;
 		dialog.logo = get_app_icon(128);
 
 		dialog.license = "This program is free for personal and commercial use and comes with absolutely no warranty. You use this program entirely at your own risk. The author will not be liable for any damages arising from the use of this program.";
 		dialog.website = "http://teejeetech.in";
 		dialog.website_label = "http://teejeetech.blogspot.in";
+		dialog.website2 = "https://github.com/zcot/conky-manager2";
+		dialog.website_label2 = "project on github";
 
 		dialog.initialize();
 		dialog.show_all();

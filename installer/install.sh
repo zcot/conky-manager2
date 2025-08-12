@@ -1,6 +1,6 @@
 #!/bin/bash
 
-app_name='conky-manager'
+app_name='conky-manager2'
 app_fullname='Conky Manager'
 
 generic_depends=(conky p7zip imagemagick rsync)
