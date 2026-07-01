@@ -1,0 +1,797 @@
+# Russian translation for conky-manager
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the conky-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: conky-manager\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-10-21 18:29+0530\n"
+"PO-Revision-Date: 2026-07-01 14:33+0300\n"
+"Last-Translator: Sofiya S.V <sofiya@v.org>\n"
+"Language-Team: Russian <ru@RU.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-11-30 08:28+0000\n"
+"X-Generator: PO File Editor https://pofile.net/free-po-editor\n"
+"Language: ru\n"
+
+#: EditWidgetWindow.vala:384
+msgid "12 Hour"
+msgstr "12 Часов"
+
+#: EditWidgetWindow.vala:386
+msgid "24 Hour"
+msgstr "24 Часа"
+
+#: MainWindow.vala:423 MainWindow.vala:424
+msgid "About"
+msgstr "О компании"
+
+#: SettingsWindow.vala:199
+msgid "Add"
+msgstr "Добавить"
+
+#: SettingsWindow.vala:152
+msgid "Additional locations to search for Conky themes"
+msgstr "Дополнительные места для поиска тем Conky"
+
+#: EditWidgetWindow.vala:104
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: GeneratePreviewWindow.vala:69
+msgid "All Widgets (Overwrite Existing Image)"
+msgstr "Все виджеты (перезаписать существующее изображение)"
+
+#: GeneratePreviewWindow.vala:66
+msgid "All Widgets with Missing Previews"
+msgstr "Все виджеты с отсутствующими предварительными просмотрами"
+
+#: Main.vala:257
+msgid "App config loaded"
+msgstr "Загружена конфигурация приложения"
+
+#: Main.vala:209
+msgid "App config saved"
+msgstr "Сохранена конфигурация приложения"
+
+#: MainWindow.vala:405 SettingsWindow.vala:47
+msgid "Application Settings"
+msgstr "Настройки приложения"
+
+#: EditWidgetWindow.vala:445
+msgid "Apply"
+msgstr "Применить"
+
+#: EditWidgetWindow.vala:448
+msgid "Apply Changes"
+msgstr "Применить изменения"
+
+#: AboutWindow.vala:330
+#, c-format
+msgid "Artists"
+msgstr "Художники"
+
+#: AboutWindow.vala:314
+#, c-format
+msgid "Authors"
+msgstr "Писатели"
+
+#: AboutWindow.vala:285
+msgid "Back"
+msgstr "Возвращение"
+
+#: EditWidgetWindow.vala:312
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: EditWidgetWindow.vala:125
+msgid "Bottom Left"
+msgstr "Внизу слева"
+
+#: EditWidgetWindow.vala:129
+msgid "Bottom Middle"
+msgstr "Внизу по центру"
+
+#: EditWidgetWindow.vala:127
+msgid "Bottom Right"
+msgstr "В правом нижнем углу"
+
+#: MainWindow.vala:121
+msgid "Browse:"
+msgstr "Обзор :"
+
+#: EditThemeWindow.vala:212 GeneratePreviewWindow.vala:148
+#: SettingsWindow.vala:221
+msgid "Cancel"
+msgstr "Отменить"
+
+#: GeneratePreviewWindow.vala:83
+msgid "Capture Desktop Background"
+msgstr "Сделайте снимок обоев"
+
+#: EditThemeWindow.vala:130
+msgid "Choose File"
+msgstr "Выбор файла"
+
+#: AboutWindow.vala:295 EditWidgetWindow.vala:461
+msgid "Close"
+msgstr "закрыть"
+
+#: Main.vala:164
+msgid "Commands listed below are not available"
+msgstr "Перечисленные ниже команды недоступны"
+
+#: AboutWindow.vala:272 AboutWindow.vala:289 MainWindow.vala:257
+msgid "Credits"
+msgstr "Кредиты"
+
+#: EditThemeWindow.vala:123
+msgid "Current Wallpaper"
+msgstr "Текущие обои"
+
+#: Main.vala:1769
+msgid "Current wallpaper source path"
+msgstr "Путь к источнику текущих обоев"
+
+#: EditThemeWindow.vala:115
+msgid "Custom Wallpaper"
+msgstr "Пользовательские обои"
+
+#: DonationWindow.vala:54
+msgid ""
+"Did you find this software useful?\n"
+"\n"
+"You can buy me a coffee or make a donation via PayPal to show your support. "
+"Or just drop me an email and say Hi. This application is completely free "
+"and will continue to remain that way. Your contributions will help in "
+"keeping this project alive and improving it further.\n"
+"\n"
+"Feel free to send me an email if you find any issues in this application or "
+"if you need any changes. Suggestions and feedback are always welcome.\n"
+"\n"
+"Thanks,\n"
+"Tony George\n"
+"(teejeetech@gmail.com)"
+msgstr ""
+"Было ли это программное обеспечение полезным для вас?\n"
+"\n"
+"Вы можете заплатить мне за кофе или сделать пожертвование через PayPal, "
+"чтобы выразить мне свою поддержку. Или просто отправьте мне электронное "
+"письмо, чтобы поприветствовать меня. Это приложение совершенно бесплатное и "
+"останется таковым. Ваш вклад позволит воплотить этот проект в жизнь и "
+"улучшить его.\n"
+"\n"
+"Пожалуйста, не стесняйтесь присылать мне электронное письмо, если вы "
+"обнаружите какие-либо ошибки в приложении или захотите внести улучшения. "
+"Предложения и отзывы всегда приветствуются.\n"
+"\n"
+"Мерси,\n"
+"Тони Джордж\n"
+"(teejeetech@gmail.com)"
+
+#: Main.vala:266 Main.vala:272 Main.vala:278
+msgid "Directory Created"
+msgstr "Созданный каталог"
+
+#: EditWidgetWindow.vala:464
+msgid "Discard Changes"
+msgstr "Выйти без изменений"
+
+#: AboutWindow.vala:346
+#, c-format
+msgid "Documenters"
+msgstr "Составители документации"
+
+#: DonationWindow.vala:36 MainWindow.vala:414 MainWindow.vala:415
+msgid "Donate"
+msgstr "Сделать пожертвование"
+
+#: DonationWindow.vala:74
+msgid "Donate with Google Wallet"
+msgstr "Сделать пожертвование через Google Wallet"
+
+#: DonationWindow.vala:67
+msgid "Donate with PayPal"
+msgstr "Сделать пожертвование через PayPal"
+
+#: AboutWindow.vala:354
+#, c-format
+msgid "Donations"
+msgstr "Доны"
+
+#: MainWindow.vala:328
+msgid "Edit"
+msgstr "Редактировать"
+
+#: EditThemeWindow.vala:57
+msgid "Edit Theme"
+msgstr "Изменить тему"
+
+#: EditWidgetWindow.vala:64 MainWindow.vala:329
+msgid "Edit Widget"
+msgstr "Виджет файла-модификатора"
+
+#: MainWindow.vala:338
+msgid "Edit file manually in a text editor"
+msgstr "Отредактируйте файл вручную в текстовом редакторе"
+
+#: MainWindow.vala:444
+msgid "Enable"
+msgstr "Активировать"
+
+#: MainWindow.vala:184
+msgid ""
+"Enter name or path to filter.\n"
+"Enter '0' to list running widgets"
+msgstr ""
+"Введите имя или путь для фильтрации.\n"
+"Введите '0', чтобы отобразить список включенных виджетов"
+
+#: MainWindow.vala:945 Utility.vala:107
+msgid "Error"
+msgstr "Ошибка"
+
+#: MainWindow.vala:945
+msgid "Failed to import themes"
+msgstr "Невозможно импортировать темы"
+
+#: Utility.vala:1293
+msgid "Failed to set ownership"
+msgstr "Невозможно установить владельца"
+
+#: Main.vala:371
+msgid "Failed to unzip files from theme pack"
+msgstr "Невозможно распаковать файлы из пакета тем"
+
+#: MainWindow.vala:174
+msgid "Filter"
+msgstr "Фильтровать"
+
+#: Main.vala:560
+msgid "Font Copied: "
+msgstr "Скопированный шрифт : "
+
+#: Main.vala:319
+msgid "Found theme pack [installed]"
+msgstr "Обнаружен пакет тем [установлен]"
+
+#: Main.vala:327
+msgid "Found theme pack [new]"
+msgstr "Обнаружен пакет тем [новый]"
+
+#: SettingsWindow.vala:76
+msgid "General"
+msgstr "Общие сведения"
+
+#: GeneratePreviewWindow.vala:45 MainWindow.vala:369
+msgid "Generate Preview"
+msgstr "Создание предварительного просмотра"
+
+#: MainWindow.vala:370
+msgid "Generate preview images"
+msgstr "Создать изображение для предварительного просмотра"
+
+#: GeneratePreviewWindow.vala:57
+msgid "Generate preview images for"
+msgstr "Создать изображение предварительного просмотра для"
+
+#: GeneratePreviewWindow.vala:108
+msgid "Generate preview images in PNG format instead of JPEG"
+msgstr ""
+"Сгенерируйте изображение предварительного просмотра в формате PNG вместо "
+"JPEG"
+
+#: MainWindow.vala:788 MainWindow.vala:862
+msgid "Generating Previews"
+msgstr "Создание предварительных версий"
+
+#: EditWidgetWindow.vala:213
+msgid "Height Padding"
+msgstr "Регулировка высоты"
+
+#: EditWidgetWindow.vala:195
+msgid ""
+"Height should be larger than the size of window contents,\n"
+"otherwise this setting will not have any effect"
+msgstr ""
+"Высота должна быть больше, чем размеры различного содержимого в окне,\n"
+"иначе эта настройка не будет иметь никакого эффекта."
+
+#: GeneratePreviewWindow.vala:104
+msgid "High quality images (PNG)"
+msgstr "Изображение высокого качества (PNG)"
+
+#: EditWidgetWindow.vala:139
+msgid "Horizontal Gap"
+msgstr "Горизонтальное расширение"
+
+#: MainWindow.vala:389
+msgid "Import"
+msgstr "Импортер"
+
+#: MainWindow.vala:901
+msgid "Import Theme Pack"
+msgstr "Импорт пакета тем"
+
+#: MainWindow.vala:390
+msgid "Import Theme Pack (*.cmtp.7z)"
+msgstr "Импорт пакета тем (*.cmtp.7z)"
+
+#: Main.vala:363
+msgid "Importing"
+msgstr "Импорт"
+
+#: EditThemeWindow.vala:80
+msgid "Include desktop wallpaper in theme"
+msgstr "Включите обои рабочего стола в тему"
+
+#: EditThemeWindow.vala:222 EditThemeWindow.vala:223
+msgid "Include running widgets in theme"
+msgstr "Включить открытый виджет в тему"
+
+#: EditWidgetWindow.vala:210
+msgid ""
+"Increases the window height by adding empty lines at the end of the Conky "
+"config file"
+msgstr ""
+"Увеличивает высоту окна, добавляя пустые строки в конце файла конфигурации "
+"Conky"
+
+#: EditWidgetWindow.vala:406
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: EditWidgetWindow.vala:425
+msgid "LAN"
+msgstr "Локальная сеть (LAN)"
+
+#: MainWindow.vala:200
+msgid "List"
+msgstr "Список"
+
+#: EditWidgetWindow.vala:475
+msgid "Loading"
+msgstr "Загрузка"
+
+#: EditWidgetWindow.vala:88 SettingsWindow.vala:173
+msgid "Location"
+msgstr "Расположение"
+
+#: SettingsWindow.vala:126
+msgid "Locations"
+msgstr "Огневые точки"
+
+#: MainWindow.vala:337
+msgid "Manual Edit"
+msgstr "Редактировать руководство"
+
+#: EditWidgetWindow.vala:131
+msgid "Middle Left"
+msgstr "В середине слева"
+
+#: EditWidgetWindow.vala:135
+msgid "Middle Middle"
+msgstr "В центре"
+
+#: EditWidgetWindow.vala:133
+msgid "Middle Right"
+msgstr "В середине справа"
+
+#: EditWidgetWindow.vala:198
+msgid "Minimum Height"
+msgstr "Минимальная высота"
+
+#: EditWidgetWindow.vala:182
+msgid "Minimum Width"
+msgstr "Минимальная ширина"
+
+#: Main.vala:133
+msgid "Missing Dependencies"
+msgstr "Отсутствующие зависимости"
+
+#: Utility.vala:1023
+msgid "Missing Icon"
+msgstr "Отсутствующие значки"
+
+#: MainWindow.vala:1063
+msgid "N/A"
+msgstr "Н/Д"
+
+#: EditThemeWindow.vala:328
+msgid "Name Required"
+msgstr "Требуемое имя"
+
+#: EditWidgetWindow.vala:390
+msgid "Network"
+msgstr "Сеть"
+
+#: EditWidgetWindow.vala:522
+msgid "Network interface cannot be changed for selected widget"
+msgstr "Сетевой интерфейс не может быть изменен в выбранном виджете"
+
+#: MainWindow.vala:296
+msgid "Next"
+msgstr "Следующий"
+
+#: MainWindow.vala:297
+msgid "Next Widget"
+msgstr "Следующий виджет"
+
+#: EditThemeWindow.vala:341
+msgid "No Widgets Selected"
+msgstr "Виджет не выбран"
+
+#: EditThemeWindow.vala:113
+msgid "None"
+msgstr "Нет"
+
+#: DonationWindow.vala:95 EditThemeWindow.vala:205
+#: GeneratePreviewWindow.vala:125 SettingsWindow.vala:215
+msgid "OK"
+msgstr "Хорошо"
+
+#: EditWidgetWindow.vala:298
+msgid "Opacity (%)"
+msgstr "Непрозрачность (%)"
+
+#: EditWidgetWindow.vala:286
+msgid "Opaque"
+msgstr "Непрозрачный"
+
+#: MainWindow.vala:346
+msgid "Open Folder"
+msgstr "Открыть папку"
+
+#: MainWindow.vala:347
+msgid "Open Theme Folder"
+msgstr "Открыть папку темы"
+
+#: GeneratePreviewWindow.vala:72
+msgid "Options"
+msgstr "Параметры"
+
+#: EditThemeWindow.vala:329
+msgid "Please enter theme name"
+msgstr "Введите название темы"
+
+#: Main.vala:165
+msgid "Please install required packages and try running it again"
+msgstr "Установите необходимые пакеты и попробуйте еще раз"
+
+#: MainWindow.vala:194
+msgid "Preview"
+msgstr "предварительный просмотр"
+
+#: MainWindow.vala:287
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: MainWindow.vala:288
+msgid "Previous Widget"
+msgstr "Предыдущий виджет"
+
+#: EditWidgetWindow.vala:290
+msgid "Pseudo-Transparent"
+msgstr "Ложная прозрачность"
+
+#: MainWindow.vala:360
+msgid "Refresh"
+msgstr "Обновить"
+
+#: SettingsWindow.vala:205
+msgid "Remove"
+msgstr "Удалить"
+
+#: EditWidgetWindow.vala:453
+msgid "Reset"
+msgstr "Сброс настроек"
+
+#: EditWidgetWindow.vala:456
+msgid "Reset Changes"
+msgstr "Отменить изменения"
+
+#: SettingsWindow.vala:86
+msgid "Run Conky at system startup"
+msgstr "Активировать Conky при запуске системы"
+
+#: EditThemeWindow.vala:57 MainWindow.vala:160
+msgid "Save Theme"
+msgstr "Сохранить тему"
+
+#: MainWindow.vala:164
+msgid "Save running widgets and current desktop wallpaper as new theme"
+msgstr "Сохранение активных виджетов и обоев рабочего стола в качестве новой темы"
+
+#: Main.vala:955
+msgid "Saved"
+msgstr "Сохранено"
+
+#: EditThemeWindow.vala:152
+msgid "Scaling"
+msgstr "Изменение размера"
+
+#: MainWindow.vala:361
+msgid "Search for new themes"
+msgstr "Поиск новых тем"
+
+#: MainWindow.vala:1075
+msgid "Searching directories..."
+msgstr "Поиск по каталогам..."
+
+#: Main.vala:407
+#, c-format
+msgid "Searching for conkyrc files... %d found"
+msgstr "Поиск файлов conkyrc... %d найдено"
+
+#: EditThemeWindow.vala:135
+msgid "Select Wallpaper"
+msgstr "Выбор обоев"
+
+#: SettingsWindow.vala:270
+msgid "Select directory"
+msgstr "Выбор каталога"
+
+#: EditThemeWindow.vala:342
+msgid "Select the widgets to include in theme"
+msgstr "Выберите виджет (ы) для включения в тему"
+
+#: GeneratePreviewWindow.vala:63
+msgid "Selected Widget"
+msgstr "Выбранный виджет"
+
+#: EditWidgetWindow.vala:292
+msgid "Semi-Transparent"
+msgstr "Полупрозрачность"
+
+#: DonationWindow.vala:81
+msgid "Send Email"
+msgstr "Отправить электронное письмо"
+
+#: EditWidgetWindow.vala:240
+msgid ""
+"Setting Type to \"Opaque\" (from the transparency tab) will make it easier "
+"to see the changes"
+msgstr ""
+"Настройка \"Непрозрачный\" (на вкладке \"Прозрачность\") позволит лучше "
+"видеть изменения"
+
+#: EditWidgetWindow.vala:335
+msgid ""
+"Setting Type to \"Pseudo-Transparent\" will make the window transparent but "
+"the window will have a shadow. The shadow can be disabled by configuring "
+"your window manager."
+msgstr ""
+"Настройка \"Ложная прозрачность\" сделает окно прозрачным, но сохранит "
+"тень. Эту тень можно отключить, изменив конфигурацию оконного менеджера."
+
+#: EditWidgetWindow.vala:325
+msgid ""
+"Setting Type to \"Transparent\" will make the whole window transparent "
+"(including any images). Use \"Pseudo-Transparent\" if you want the images "
+"to be opaque."
+msgstr ""
+"Настройка \"Прозрачность\" сделает прозрачным все окно, включая "
+"изображения, если они есть. Используйте \"Ложную прозрачность\", если "
+"хотите получить непрозрачные изображения."
+
+#: MainWindow.vala:404
+msgid "Settings"
+msgstr "Параметры"
+
+#: EditWidgetWindow.vala:164
+msgid "Size"
+msgstr "Размер"
+
+#: MainWindow.vala:247
+msgid "Source"
+msgstr "Источник"
+
+#: MainWindow.vala:305 MainWindow.vala:314
+msgid "Start"
+msgstr "Активировать"
+
+#: MainWindow.vala:306
+msgid "Start/Restart Widget"
+msgstr "Включить / снова включить виджет"
+
+#: Main.vala:866
+msgid "Started"
+msgstr "Активированный"
+
+#: SettingsWindow.vala:105
+msgid "Startup Delay (seconds)"
+msgstr "Задержка при запуске (секунды)"
+
+#: MainWindow.vala:229 MainWindow.vala:231
+msgid "Stop"
+msgstr "Остановить"
+
+#: MainWindow.vala:380
+msgid "Stop All Widgets"
+msgstr "Остановить все виджеты"
+
+#: MainWindow.vala:315
+msgid "Stop Widget"
+msgstr "Остановить виджет"
+
+#: MainWindow.vala:381
+msgid "Stop all running widgets"
+msgstr "Остановить все запущенные виджеты"
+
+#: Main.vala:892 Utility.vala:751
+msgid "Stopped"
+msgstr "Прерванный"
+
+#: EditWidgetWindow.vala:230
+msgid ""
+"The minimum width & height must be more than the size of the window "
+"contents, otherwise the setting will not have any effect."
+msgstr ""
+"Размеры по ширине и высоте должны быть больше, чем у любого содержимого в "
+"окне, иначе настройки не будут иметь никакого эффекта."
+
+#: SettingsWindow.vala:137
+msgid "Theme Directory"
+msgstr "Каталог тем"
+
+#: EditThemeWindow.vala:67
+msgid "Theme Name"
+msgstr "Название темы"
+
+#: MainWindow.vala:129
+msgid "Themes"
+msgstr "Темы"
+
+#: MainWindow.vala:942
+msgid "Themes Imported"
+msgstr "Импортированные темы"
+
+#: MainWindow.vala:942
+msgid "Themes imported successfully"
+msgstr "Успешный импорт тем"
+
+#: AboutWindow.vala:322
+#, c-format
+msgid "Third Party Tools"
+msgstr "Сторонние инструменты"
+
+#: EditWidgetWindow.vala:346
+msgid "Time"
+msgstr "Время"
+
+#: EditWidgetWindow.vala:362
+msgid "Time Format"
+msgstr "Формат времени"
+
+#: EditWidgetWindow.vala:506
+msgid "Time format cannot be changed for selected widget"
+msgstr "Формат времени не может быть изменен для выбранного виджета"
+
+#: MainWindow.vala:202
+msgid "Toggle List"
+msgstr "Список включения/выключения"
+
+#: MainWindow.vala:196
+msgid "Toggle Preview"
+msgstr "Включение/выключение предварительного просмотра"
+
+#: EditWidgetWindow.vala:119
+msgid "Top Left"
+msgstr "Вверху слева"
+
+#: EditWidgetWindow.vala:123
+msgid "Top Middle"
+msgstr "Вверху посередине"
+
+#: EditWidgetWindow.vala:121
+msgid "Top Right"
+msgstr "В правом верхнем углу"
+
+#: AboutWindow.vala:338
+#, c-format
+msgid "Translators"
+msgstr "Переводчики"
+
+#: EditWidgetWindow.vala:251
+msgid "Transparency"
+msgstr "Прозрачность"
+
+#: EditWidgetWindow.vala:268
+msgid "Transparency Type"
+msgstr "Тип прозрачности"
+
+#: EditWidgetWindow.vala:288
+msgid "Transparent"
+msgstr "Прозрачный"
+
+#: EditWidgetWindow.vala:545
+msgid "Updating theme"
+msgstr "Обновление темы"
+
+#: MainWindow.vala:480
+msgid ""
+"Use the keyboard arrow keys to browse.\n"
+"Press ENTER to start and stop."
+msgstr ""
+"Используйте стрелки на клавиатуре для навигации.\n"
+"Нажмите ENTER, чтобы запустить и остановить."
+
+#: MainWindow.vala:1009
+msgid "Utility for managing Conky configuration files"
+msgstr "Утилита управления файлами конфигурации для Conky"
+
+#: EditWidgetWindow.vala:151
+msgid "Vertical Gap"
+msgstr "Вертикальный разрез"
+
+#: DonationWindow.vala:88
+msgid "Visit Website"
+msgstr "Посетите веб-сайт"
+
+#: EditThemeWindow.vala:80 EditThemeWindow.vala:93
+msgid "Wallpaper"
+msgstr "Обои для рабочего стола"
+
+#: Main.vala:1773 Main.vala:1781
+msgid "Wallpaper saved"
+msgstr "Сохраненные обои"
+
+#: Utility.vala:107
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: GeneratePreviewWindow.vala:87
+msgid ""
+"When enabled, the generated image will have the same background as the "
+"current desktop wallpaper. When disabled, the background will be a solid "
+"color (the widget's background color)."
+msgstr ""
+"В случае активации сгенерированное изображение будет иметь тот же фон, что "
+"и обои рабочего стола. В противном случае фон будет однотонным (цвет фона "
+"виджета)."
+
+#: EditWidgetWindow.vala:416
+msgid "WiFi"
+msgstr "Wi-Fi"
+
+#: EditWidgetWindow.vala:421
+msgid "WiFi Network"
+msgstr "Сеть Wi-Fi"
+
+#: EditThemeWindow.vala:222 MainWindow.vala:125
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: EditWidgetWindow.vala:179
+msgid ""
+"Width should be larger than the size of window contents,\n"
+"otherwise this setting will not have any effect"
+msgstr ""
+"Ширина должна быть больше, чем размер любого содержимого в окне,\n"
+"иначе эта настройка не будет иметь никакого эффекта"
+
+#: EditWidgetWindow.vala:295
+msgid ""
+"Window Opacity\n"
+"\n"
+"0 = Fully Transparent, 100 = Fully Opaque"
+msgstr ""
+"Непрозрачность окна\n"
+"\n"
+"0 = Полная прозрачность, 100 = Полная непрозрачность"
+
+#: EditWidgetWindow.vala:430
+msgid "Wired LAN Network"
+msgstr "Локальная проводная сеть"
+
+#: EditWidgetWindow.vala:140
+msgid "[GAP_X] Horizontal distance from window border (in pixels)"
+msgstr "[GAP_X] Расстояние по горизонтали от края окна (в пикселях)"
+
+#: EditWidgetWindow.vala:152
+msgid "[GAP_Y] Vertical distance from window border (in pixels)"
+msgstr "[GAP_Y] Расстояние по вертикали от края окна (в пикселях)"
